@@ -1,7 +1,7 @@
 package brunocasamassa.studio.teste.models;
 
 /**
- * Created by bruno on 16/03/2018.
+ * Created by bruno on 28/03/2018.
  */
 
 import com.google.gson.annotations.Expose;

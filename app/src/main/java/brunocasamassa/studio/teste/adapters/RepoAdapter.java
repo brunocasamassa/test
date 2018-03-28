@@ -19,7 +19,7 @@ import brunocasamassa.studio.teste.models.Repo;
 import brunocasamassa.studio.teste.models.User;
 
 /**
- * Created by bruno on 16/03/2018.
+ * Created by bruno on 28/03/2018.
  */
 
 public class RepoAdapter extends RecyclerView.Adapter<RepoHolder> {

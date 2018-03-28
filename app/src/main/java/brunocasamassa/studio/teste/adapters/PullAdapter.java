@@ -15,7 +15,7 @@ import brunocasamassa.studio.teste.models.User;
 import brunocasamassa.studio.teste.models.pull_models.PullRequest;
 
 /**
- * Created by bruno on 16/03/2018.
+ * Created by bruno on 28/03/2018.
  */
 
 public class PullAdapter extends RecyclerView.Adapter<PullHolder> {

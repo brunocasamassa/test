@@ -25,7 +25,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by bruno on 19/03/2018.
+ * Created by bruno on 28/03/2018.
  *
  *
  */
@@ -108,7 +108,6 @@ public class PullRequestsActivity extends AppCompatActivity implements HttpReque
                     userList = new ArrayList<>();
                     int countOpened = 0;
                     int countClosed = 0;
-
                     for (PullRequest pull : pulls) {
 
                         //verify Pull Request status

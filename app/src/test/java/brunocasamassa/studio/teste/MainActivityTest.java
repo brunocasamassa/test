@@ -20,8 +20,7 @@ public class MainActivityTest {
     public void httpRequestIsValid() throws Exception {
         assertNotNull(shadowOf(RuntimeEnvironment.application));
 
-        int httpCode = Robolectric.buildActivity(MainActivity.class).create().get().getRequest();
-        System.out.println("HTTP RESULT "+ httpCode);
+        int httpCode = Robolectric.buildActivity(MainActivity.class).create().get().getHttpCodeStatus();
 
         //range valido
         assertTrue(httpCode >= 200 && httpCode <= 300);
